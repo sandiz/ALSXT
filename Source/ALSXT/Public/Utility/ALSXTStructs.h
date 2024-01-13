@@ -806,10 +806,10 @@ struct ALSXT_API FALSXTCharacterVoiceParameters
 	FGameplayTag Variant;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Criteria", Meta = (ClampMin=0.5f, ClampMax=1.5f, AllowPrivateAccess))
-	float Speed {0.0f};
+	float Speed { 0.0f };
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Criteria", Meta = (ClampMin = 0.5f, ClampMax = 1.5f, AllowPrivateAccess))
-	float Pitch {0.0f};
+	float Pitch { 0.0f };
 };
 
 USTRUCT(BlueprintType)
